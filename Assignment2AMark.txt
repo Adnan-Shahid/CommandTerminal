@@ -1,0 +1,103 @@
+==== A2 phase I marking ====
+
+Group number: 0320
+UTORID usernames of members: gaoxu1, haqueya1, shahid41, vasant42
+TA: Akshay Nair <akshay.nair@mail.utoronto.ca>
+
+Total deductions: 9 (Grade: D+)
+Instructor bonus: +2
+Final deductions: 7 (Grade: C)
+
+============================
+
+Your team's Phase II grade is based on this scale:
+
+    http://www.artsandscience.utoronto.ca/ofr/calendar/rules.htm#grading
+
+The way we graded is as follows: your team starts with an A+. When errors and
+problems are found, you will lose 0, 1, 2, or 3 letter steps, depending on the
+severity. As an example, if you lost two steps, your team would earn an A-:
+
+     A+ -> A
+     A -> A-
+
+You were asked to follow the Scrum process. A big part of that is to maintain
+a product backlog and a sprint backlog. 
+
+==== Product and Sprint backlogs ==== [up to -6]
+
+Mark: -0.5
+
+Mark deduction:
+- PB items are too involved with the implementation. They should be somewhat general. (-0.5)
+
+==== Java Style ==== [up to -6]
+
+Mark: -1
+
+Mark deductions:
+- We need more packages than just "a2" (-0.5)
+- Some class names (like CD) are not semantic. They should be noun phrases. (-0.5)
+
+==== Design ==== [up to -6]
+
+Mark: -2
+
+Mark deductions:
+- ProQuery's sortQuery method is too long. Perhaps you should've populated the hash table in another method, and implemented History in yet another method. (-0.5)
+
+- No unified path handling. You should have some method or class that can change between strings and folders. (-1)
+
+- Casting from Object is considered bad design. You should have some superclass for Folder and File. (-0.5)
+
+Other comments:
+- Instead of using Output to output strings exactly, you should return strings instead. This way you can manipulate them how you see fit.
+
+- Make a hash table of <String, CommandInterface> and load all your constructors at the beginning. This is more efficient.
+
+==== Javadoc ==== [up to -3]
+
+Mark: -3
+
+Mark deductions:
+- Missing Javadoc on some methods (constructors, etc.) (-1)
+- Missing Javadoc on classes (-1)
+- Occasionally missing @return/@param tags (-0.5)
+- Missing comments on many instance variables (-0.5)
+
+==== Testing ==== [up to -6] 
+
+Mark: -0.5
+
+Mark deductions:
+- Method names are not descriptive. (-0.5)
+
+==== Correctness ==== [up to -6]
+
+Mark: -2
+
+Mark deductions:
+- Code does not compile on the lab machines. Fix is simple (-1)
+
+Test cases failed (-0.25 * 4 = -1):
+1) Echoing without quotes
+    >echo "Hello
+    Expected: It shouldn’t echo Hello, since it is not enclosed in double quotes (as stated in the handout).
+    Actual: Prints Hell.
+
+2) Echoing and creating a new file given a valid absolute path.
+    >echo “Hello” > /new/file.txt
+    Expected: It should create a file called file.txt inside new with Hello as the contents.
+    Actual: Shows an error (even though "new" is already created)
+
+3) Listing files
+    >ls file.txt
+    Expected: It should print file.txt.
+    Actual: Shows an error.
+
+4) Pop directories from the stack
+    >cd new
+    >pushd /
+    >popd
+    Expected: It should change directory to root (/) first, then it should change to /new
+    Actual: Changes to root, then to root again.

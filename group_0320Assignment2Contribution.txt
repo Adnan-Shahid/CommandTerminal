@@ -1,0 +1,2037 @@
++++ASSIGNMENT2 TEAM MEMBER CONTRIBUTION+++
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT1+++
+A    Assignment2/sprints
+A    Assignment2/sprints/readMeSprints.txt
+A    Assignment2/sprints/Sprint1Backlog.txt
+A    Assignment2/sprints/Sprint2Backlog.txt
+A    Assignment2/sprints/Sprint3Backlog.txt
+A    Assignment2/productBacklog
+A    Assignment2/productBacklog/productBacklogFor2A.txt
+A    Assignment2/productBacklog/readMeProductBacklog.txt
+A    Assignment2/crcCards
+A    Assignment2/crcCards/ProQuery.txt
+A    Assignment2/crcCards/CD.txt
+A    Assignment2/crcCards/PWD.txt
+A    Assignment2/crcCards/JFileSystem.txt
+A    Assignment2/crcCards/CommandInterface.txt
+A    Assignment2/crcCards/Output.txt
+A    Assignment2/crcCards/History.txt
+A    Assignment2/crcCards/PopD.txt
+A    Assignment2/crcCards/DirStack.txt
+A    Assignment2/crcCards/Mkdir.txt
+A    Assignment2/crcCards/EchoAppend.txt
+A    Assignment2/crcCards/CAT.txt
+A    Assignment2/crcCards/readMeForCrcCards.txt
+A    Assignment2/crcCards/Exit.txt
+A    Assignment2/crcCards/Folder.txt
+A    Assignment2/crcCards/Man.txt
+A    Assignment2/crcCards/LS.txt
+A    Assignment2/crcCards/Echo.txt
+A    Assignment2/crcCards/File.txt
+A    Assignment2/crcCards/JShell.txt
+A    Assignment2/crcCards/PushD.txt
+A    Assignment2/crcCards/FileSystem.txt
+A    Assignment2/crcCards/EchoOverwrite.txt
+A    Assignment2/readMeAssignment2A.txt
+A    Assignment2/src
+A    Assignment2/src/driver
+A    Assignment2/src/driver/JShell.java
+A    Assignment2/src/test
+A    Assignment2/src/test/HistoryTest.java
+A    Assignment2/src/test/PopDTest.java
+A    Assignment2/src/test/DirStackTest.java
+A    Assignment2/src/test/EchoAppendTest.java
+A    Assignment2/src/test/MkdirTest.java
+A    Assignment2/src/test/CatTest.java
+A    Assignment2/src/test/FolderTest.java
+A    Assignment2/src/test/ManTest.java
+A    Assignment2/src/test/EchoTest.java
+A    Assignment2/src/test/LSTest.java
+A    Assignment2/src/test/FileTest.java
+A    Assignment2/src/test/PushDTest.java
+A    Assignment2/src/test/EchoOverwriteTest.java
+A    Assignment2/src/test/ProQueryTest.java
+A    Assignment2/src/test/CDTest.java
+A    Assignment2/src/test/PWDTest.java
+A    Assignment2/src/test/JFileSystemTest.java
+A    Assignment2/src/a2
+A    Assignment2/src/a2/Echo.java
+A    Assignment2/src/a2/LS.java
+A    Assignment2/src/a2/File.java
+A    Assignment2/src/a2/PushD.java
+A    Assignment2/src/a2/FileSystem.java
+A    Assignment2/src/a2/EchoOverwrite.java
+A    Assignment2/src/a2/CD.java
+A    Assignment2/src/a2/ProQuery.java
+A    Assignment2/src/a2/PWD.java
+A    Assignment2/src/a2/JFileSystem.java
+A    Assignment2/src/a2/CommandInterface.java
+A    Assignment2/src/a2/Output.java
+A    Assignment2/src/a2/History.java
+A    Assignment2/src/a2/PopD.java
+A    Assignment2/src/a2/DirStack.java
+A    Assignment2/src/a2/EchoAppend.java
+A    Assignment2/src/a2/Mkdir.java
+A    Assignment2/src/a2/Cat.java
+A    Assignment2/src/a2/Exit.java
+A    Assignment2/src/a2/Folder.java
+A    Assignment2/src/a2/Man.java
+A    Assignment2/dailyScrumMeetings
+A    Assignment2/dailyScrumMeetings/haqueya1Sprint2June16.txt
+A    Assignment2/dailyScrumMeetings/shahid41Sprint1June10
+A    Assignment2/dailyScrumMeetings/shahid41Sprint2June13
+A    Assignment2/dailyScrumMeetings/vasant42Sprint1June10.txt
+A    Assignment2/dailyScrumMeetings/gaoxu1Sprint1June10.txt
+A    Assignment2/dailyScrumMeetings/haqueya1Sprint3June22
+A    Assignment2/dailyScrumMeetings/vasant42Sprint2June13.txt
+A    Assignment2/dailyScrumMeetings/vasant42Sprint3June22.txt
+A    Assignment2/dailyScrumMeetings/gaoxu1Sprint2June13.txt
+A    Assignment2/dailyScrumMeetings/haqueya1Sprint3June25
+A    Assignment2/dailyScrumMeetings/vasant42Sprint2June16.txt
+A    Assignment2/dailyScrumMeetings/gaoxu1Sprint3June22.txt
+A    Assignment2/dailyScrumMeetings/vasant42Sprint3June25.txt
+A    Assignment2/dailyScrumMeetings/shahid41Sprint3June22.txt
+A    Assignment2/dailyScrumMeetings/gaoxu1Sprint2June16.txt
+A    Assignment2/dailyScrumMeetings/haqueya1Sprint3June19
+A    Assignment2/dailyScrumMeetings/gaoxu1Sprint3June25.txt
+A    Assignment2/dailyScrumMeetings/shahid41Sprint2June16.txt
+A    Assignment2/dailyScrumMeetings/vasant42Sprint3June19.txt
+A    Assignment2/dailyScrumMeetings/shahid41Sprint3June25.txt
+A    Assignment2/dailyScrumMeetings/haqueya1Sprint1June10.txt
+A    Assignment2/dailyScrumMeetings/gaoxu1Sprint3June19.txt
+A    Assignment2/dailyScrumMeetings/shahid41Sprint3June19.txt
+A    Assignment2/dailyScrumMeetings/readMeDailyScrumMeetings.txt
+A    Assignment2/dailyScrumMeetings/haqueya1Sprint2June13.txt
+Checked out revision 460.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+Marks Deductions here (-.5 max): 
+------------------------------------------------------------------------
+r460 | vasant42@UTORONTO.CA | 2016-06-27 21:29:15 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fixed a bug where the ".." only case was not working for root folders
+------------------------------------------------------------------------
+r459 | shahid41@UTORONTO.CA | 2016-06-27 20:20:41 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fixed a minor error in one of the tests
+------------------------------------------------------------------------
+r458 | shahid41@UTORONTO.CA | 2016-06-27 20:16:32 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified comments
+------------------------------------------------------------------------
+r457 | shahid41@UTORONTO.CA | 2016-06-27 20:15:47 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r456 | shahid41@UTORONTO.CA | 2016-06-27 20:14:18 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added case for cd /
+------------------------------------------------------------------------
+r455 | gaoxu1@UTORONTO.CA | 2016-06-27 19:08:52 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"fixed small bug that didn't allow cd / to be a valid command"
+------------------------------------------------------------------------
+r454 | vasant42@UTORONTO.CA | 2016-06-27 18:50:45 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Properly formated (forgot to do so on last commit)
+------------------------------------------------------------------------
+r453 | vasant42@UTORONTO.CA | 2016-06-27 18:48:58 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fixed a bug where multiple files with the same name could be created in the same directory
+------------------------------------------------------------------------
+r452 | vasant42@UTORONTO.CA | 2016-06-27 18:48:37 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fixed a bug where ".." to home would return an error
+------------------------------------------------------------------------
+r451 | gaoxu1@UTORONTO.CA | 2016-06-27 18:27:10 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"documented EchoTest and CatTest classes to test echo command and cat command"
+------------------------------------------------------------------------
+r450 | gaoxu1@UTORONTO.CA | 2016-06-27 18:24:02 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"fixed case where getStringToOutput() would return null"
+------------------------------------------------------------------------
+r449 | gaoxu1@UTORONTO.CA | 2016-06-27 17:59:00 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"corrected grammar error"
+------------------------------------------------------------------------
+r448 | gaoxu1@UTORONTO.CA | 2016-06-27 17:50:28 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"Fully documented remaining classes"
+------------------------------------------------------------------------
+r447 | haqueya1@UTORONTO.CA | 2016-06-27 16:18:39 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted output class
+------------------------------------------------------------------------
+r446 | haqueya1@UTORONTO.CA | 2016-06-27 16:17:50 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted Man testing
+------------------------------------------------------------------------
+r445 | haqueya1@UTORONTO.CA | 2016-06-27 16:17:33 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted PWD Testing.
+------------------------------------------------------------------------
+r444 | haqueya1@UTORONTO.CA | 2016-06-27 16:17:20 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added History class testing
+------------------------------------------------------------------------
+r443 | gaoxu1@UTORONTO.CA | 2016-06-27 15:57:23 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"documented test cases, corrected echo tests where strings are required to be in double quotes"
+------------------------------------------------------------------------
+r442 | vasant42@UTORONTO.CA | 2016-06-27 15:45:01 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified expected output to match the changes that were made to ls on revision 441
+------------------------------------------------------------------------
+r441 | vasant42@UTORONTO.CA | 2016-06-27 15:44:16 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Changed so if a directory is specified by p, the original p is printed instead of the absolute path
+------------------------------------------------------------------------
+r440 | shahid41@UTORONTO.CA | 2016-06-27 15:38:49 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added another getter for testing
+------------------------------------------------------------------------
+r439 | haqueya1@UTORONTO.CA | 2016-06-27 15:36:12 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Fix proquery to work with history.
+------------------------------------------------------------------------
+r438 | shahid41@UTORONTO.CA | 2016-06-27 15:34:32 -0400 (Mon, 27 Jun 2016) | 1 line
+
+made the list into a list string
+------------------------------------------------------------------------
+r437 | shahid41@UTORONTO.CA | 2016-06-27 15:29:47 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added a method to get history for testing
+------------------------------------------------------------------------
+r436 | shahid41@UTORONTO.CA | 2016-06-27 15:25:45 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified how history saves a variable for testing
+------------------------------------------------------------------------
+r435 | gaoxu1@UTORONTO.CA | 2016-06-27 15:17:31 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"added case where full path was at the root"
+------------------------------------------------------------------------
+r434 | gaoxu1@UTORONTO.CA | 2016-06-27 15:15:46 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"last commit did not do as intended, fixed bug to remove quotes from String in echo command"
+------------------------------------------------------------------------
+r433 | vasant42@UTORONTO.CA | 2016-06-27 14:48:17 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added the expected output to the comments
+------------------------------------------------------------------------
+r432 | vasant42@UTORONTO.CA | 2016-06-27 14:48:05 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added the expected output to the comments
+------------------------------------------------------------------------
+r431 | vasant42@UTORONTO.CA | 2016-06-27 14:47:51 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added expected output to the comments
+------------------------------------------------------------------------
+r430 | gaoxu1@UTORONTO.CA | 2016-06-27 14:44:41 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"corrected small bug where """ would print/be added to the file for the STRING part of echo command"
+------------------------------------------------------------------------
+r429 | haqueya1@UTORONTO.CA | 2016-06-27 14:31:55 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Updated comments.
+------------------------------------------------------------------------
+r428 | haqueya1@UTORONTO.CA | 2016-06-27 14:29:33 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted File class.
+------------------------------------------------------------------------
+r427 | haqueya1@UTORONTO.CA | 2016-06-27 14:29:19 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted exit class.
+------------------------------------------------------------------------
+r426 | haqueya1@UTORONTO.CA | 2016-06-27 14:28:37 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted CD.
+------------------------------------------------------------------------
+r425 | haqueya1@UTORONTO.CA | 2016-06-27 14:28:07 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted CommandInterface.
+------------------------------------------------------------------------
+r424 | haqueya1@UTORONTO.CA | 2016-06-27 14:27:42 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted Echo class.
+------------------------------------------------------------------------
+r423 | haqueya1@UTORONTO.CA | 2016-06-27 14:27:08 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted PWD class.
+------------------------------------------------------------------------
+r422 | haqueya1@UTORONTO.CA | 2016-06-27 14:26:25 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted ProQuery class.
+------------------------------------------------------------------------
+r421 | haqueya1@UTORONTO.CA | 2016-06-27 12:08:19 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Removed a print statement.
+------------------------------------------------------------------------
+r420 | haqueya1@UTORONTO.CA | 2016-06-27 12:07:07 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added a getStringtoOutput method.
+------------------------------------------------------------------------
+r419 | haqueya1@UTORONTO.CA | 2016-06-27 12:06:47 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Removed a print statement.
+------------------------------------------------------------------------
+r418 | haqueya1@UTORONTO.CA | 2016-06-27 12:06:29 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added PWD testing with documentation.
+------------------------------------------------------------------------
+r417 | haqueya1@UTORONTO.CA | 2016-06-27 12:06:13 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added Man testing with documentation.
+------------------------------------------------------------------------
+r416 | shahid41@UTORONTO.CA | 2016-06-27 10:28:39 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified imports and removed unused variables
+------------------------------------------------------------------------
+r415 | shahid41@UTORONTO.CA | 2016-06-27 10:27:00 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified imports
+------------------------------------------------------------------------
+r414 | shahid41@UTORONTO.CA | 2016-06-27 10:26:11 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified import statements
+------------------------------------------------------------------------
+r413 | shahid41@UTORONTO.CA | 2016-06-27 10:24:59 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Modified import statements
+------------------------------------------------------------------------
+r412 | shahid41@UTORONTO.CA | 2016-06-27 10:23:50 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Changed import statements
+------------------------------------------------------------------------
+r411 | shahid41@UTORONTO.CA | 2016-06-27 10:01:39 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r410 | shahid41@UTORONTO.CA | 2016-06-27 10:01:12 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r409 | shahid41@UTORONTO.CA | 2016-06-27 10:00:54 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r408 | shahid41@UTORONTO.CA | 2016-06-27 10:00:38 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r407 | shahid41@UTORONTO.CA | 2016-06-27 10:00:10 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r406 | shahid41@UTORONTO.CA | 2016-06-27 09:59:49 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r405 | shahid41@UTORONTO.CA | 2016-06-27 09:59:28 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r404 | shahid41@UTORONTO.CA | 2016-06-27 09:58:50 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added some documentation
+------------------------------------------------------------------------
+r403 | shahid41@UTORONTO.CA | 2016-06-27 09:54:40 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r402 | shahid41@UTORONTO.CA | 2016-06-27 09:52:59 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r401 | shahid41@UTORONTO.CA | 2016-06-27 09:52:43 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r400 | shahid41@UTORONTO.CA | 2016-06-27 09:51:55 -0400 (Mon, 27 Jun 2016) | 2 lines
+
+Formatted properly
+
+------------------------------------------------------------------------
+r399 | shahid41@UTORONTO.CA | 2016-06-27 09:34:15 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Removed an unused import
+------------------------------------------------------------------------
+r398 | shahid41@UTORONTO.CA | 2016-06-27 09:33:43 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added an error fix
+------------------------------------------------------------------------
+r397 | shahid41@UTORONTO.CA | 2016-06-27 09:25:47 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added an extra test case
+------------------------------------------------------------------------
+r396 | shahid41@UTORONTO.CA | 2016-06-27 09:20:15 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added a couple new test cases
+------------------------------------------------------------------------
+r395 | gaoxu1@UTORONTO.CA | 2016-06-27 02:57:06 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"created test cases to test File class, still requires documentation"
+------------------------------------------------------------------------
+r394 | gaoxu1@UTORONTO.CA | 2016-06-27 02:45:09 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"started testing Echo class to see if the right child classes are being called"
+------------------------------------------------------------------------
+r393 | vasant42@UTORONTO.CA | 2016-06-27 02:38:04 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Formatted properly
+------------------------------------------------------------------------
+r392 | vasant42@UTORONTO.CA | 2016-06-27 02:36:31 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added comments and formatted
+------------------------------------------------------------------------
+r391 | vasant42@UTORONTO.CA | 2016-06-27 02:36:15 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added comments and formatted
+------------------------------------------------------------------------
+r390 | vasant42@UTORONTO.CA | 2016-06-27 02:36:02 -0400 (Mon, 27 Jun 2016) | 1 line
+
+Added comments and formatted
+------------------------------------------------------------------------
+r389 | gaoxu1@UTORONTO.CA | 2016-06-27 02:34:06 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"last commit was unnecessary, the parameters are forced to be length of 3"
+------------------------------------------------------------------------
+r388 | gaoxu1@UTORONTO.CA | 2016-06-27 02:30:08 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"added condition where if the parameters are passed into echoAppend or echoOverwrite, the size of parameters must be 3"
+------------------------------------------------------------------------
+r387 | gaoxu1@UTORONTO.CA | 2016-06-27 02:18:27 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"added new setter and getting for type of echo called for convenience"
+------------------------------------------------------------------------
+r386 | gaoxu1@UTORONTO.CA | 2016-06-27 02:06:41 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"fixed order of if statements"
+------------------------------------------------------------------------
+r385 | gaoxu1@UTORONTO.CA | 2016-06-27 02:03:01 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"created test cases for echo String > outfile command, still requires documentation"
+------------------------------------------------------------------------
+r384 | gaoxu1@UTORONTO.CA | 2016-06-27 01:57:25 -0400 (Mon, 27 Jun 2016) | 1 line
+
+"created new Echo String >> Outfile tests, still require documentation"
+------------------------------------------------------------------------
+r383 | vasant42@UTORONTO.CA | 2016-06-26 23:45:38 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Changed type of parameter from Folder to Object in getObjectRecurs
+------------------------------------------------------------------------
+r382 | vasant42@UTORONTO.CA | 2016-06-26 23:45:06 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed a bug were being returned as null by getObject, even if they were found
+------------------------------------------------------------------------
+r381 | gaoxu1@UTORONTO.CA | 2016-06-26 23:30:38 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"started testing Echo String >> Outfile command"
+------------------------------------------------------------------------
+r380 | gaoxu1@UTORONTO.CA | 2016-06-26 23:09:32 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"completed cat test cases, need documentation"
+------------------------------------------------------------------------
+r379 | gaoxu1@UTORONTO.CA | 2016-06-26 23:05:56 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"corrected small errors that would print 2 lines after each file instead of 3"
+------------------------------------------------------------------------
+r378 | gaoxu1@UTORONTO.CA | 2016-06-26 23:00:31 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"fixed small bug where the user would be able to enter invalid file names as Outfile"
+------------------------------------------------------------------------
+r377 | gaoxu1@UTORONTO.CA | 2016-06-26 22:59:38 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"made cat command cleaner by making "+ "\n" + "\n" +... " into "\n\n\n...""
+------------------------------------------------------------------------
+r376 | gaoxu1@UTORONTO.CA | 2016-06-26 22:55:47 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"created tests for the Cat command"
+------------------------------------------------------------------------
+r375 | haqueya1@UTORONTO.CA | 2016-06-26 22:50:09 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Turned fixEchoParameters and joinStrWithSpace into private methods from public.
+------------------------------------------------------------------------
+r374 | haqueya1@UTORONTO.CA | 2016-06-26 22:47:06 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Updated comments/documentation.
+------------------------------------------------------------------------
+r373 | haqueya1@UTORONTO.CA | 2016-06-26 22:46:52 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed typo in documentation
+------------------------------------------------------------------------
+r372 | haqueya1@UTORONTO.CA | 2016-06-26 22:03:55 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added further comments/documentation to the ProQuery class.
+------------------------------------------------------------------------
+r371 | shahid41@UTORONTO.CA | 2016-06-26 14:04:15 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added the scrum meeting log, forgot to commit it the previous day
+------------------------------------------------------------------------
+r370 | shahid41@UTORONTO.CA | 2016-06-26 13:59:02 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added a test case to PushD
+------------------------------------------------------------------------
+r369 | shahid41@UTORONTO.CA | 2016-06-26 13:55:53 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed a minor error to pushD - added the case where user doesn't place a / at the beginning
+------------------------------------------------------------------------
+r368 | shahid41@UTORONTO.CA | 2016-06-26 13:40:47 -0400 (Sun, 26 Jun 2016) | 2 lines
+
+Added purpose comments
+
+------------------------------------------------------------------------
+r367 | shahid41@UTORONTO.CA | 2016-06-26 13:36:51 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added purpose comments to functions
+------------------------------------------------------------------------
+r366 | shahid41@UTORONTO.CA | 2016-06-26 13:34:43 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added comments to test cases
+------------------------------------------------------------------------
+r365 | shahid41@UTORONTO.CA | 2016-06-26 13:30:34 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added comments to test cases
+------------------------------------------------------------------------
+r364 | shahid41@UTORONTO.CA | 2016-06-26 13:19:05 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added comments to test cases
+------------------------------------------------------------------------
+r363 | shahid41@UTORONTO.CA | 2016-06-26 13:10:57 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added comments to test cases and updated a couple test cases
+------------------------------------------------------------------------
+r362 | shahid41@UTORONTO.CA | 2016-06-26 12:54:30 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added comments to the test cases
+------------------------------------------------------------------------
+r361 | shahid41@UTORONTO.CA | 2016-06-26 12:49:49 -0400 (Sun, 26 Jun 2016) | 2 lines
+
+Added comments to test cases and an extra test case
+
+------------------------------------------------------------------------
+r360 | gaoxu1@UTORONTO.CA | 2016-06-26 12:43:32 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"added case where outfile named contained invalid characters"
+------------------------------------------------------------------------
+r359 | vasant42@UTORONTO.CA | 2016-06-26 04:14:53 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added a string used to test multiple arguments at once
+------------------------------------------------------------------------
+r358 | vasant42@UTORONTO.CA | 2016-06-26 04:14:19 -0400 (Sun, 26 Jun 2016) | 1 line
+
+LS testing cases
+------------------------------------------------------------------------
+r357 | haqueya1@UTORONTO.CA | 2016-06-26 03:19:41 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed parameter splicing for Echo class.
+------------------------------------------------------------------------
+r356 | vasant42@UTORONTO.CA | 2016-06-26 03:16:53 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Removed addFilePath and relativePath checker; Properly formatted as well
+------------------------------------------------------------------------
+r355 | vasant42@UTORONTO.CA | 2016-06-26 03:16:29 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Removed addFilePath and relativePath checker
+------------------------------------------------------------------------
+r354 | vasant42@UTORONTO.CA | 2016-06-26 03:15:44 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Test cases for Folder
+------------------------------------------------------------------------
+r353 | vasant42@UTORONTO.CA | 2016-06-26 02:57:57 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Test file for jFileSystem
+------------------------------------------------------------------------
+r352 | haqueya1@UTORONTO.CA | 2016-06-26 02:06:05 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Committing daily scrum from Sprint 3, June 25.
+------------------------------------------------------------------------
+r351 | gaoxu1@UTORONTO.CA | 2016-06-26 01:51:05 -0400 (Sun, 26 Jun 2016) | 1 line
+
+"changed Cat so that it would output a string instead of an array of Strings, changed file so that it only contains a String body instead of array String as body, changed methods in file so it matches the change in the type of body, added printSingleLineString to Output"
+------------------------------------------------------------------------
+r350 | haqueya1@UTORONTO.CA | 2016-06-26 01:30:40 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed entry splitting in ProQuery.
+------------------------------------------------------------------------
+r349 | shahid41@UTORONTO.CA | 2016-06-26 01:26:05 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added proQuery test cases
+------------------------------------------------------------------------
+r348 | vasant42@UTORONTO.CA | 2016-06-26 01:14:18 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Created a string to keep track of error messages for testing purposes
+------------------------------------------------------------------------
+r347 | vasant42@UTORONTO.CA | 2016-06-26 01:13:10 -0400 (Sun, 26 Jun 2016) | 1 line
+
+removed calls to Output class (unnecessary)
+------------------------------------------------------------------------
+r346 | vasant42@UTORONTO.CA | 2016-06-26 01:04:39 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Modified so that the output (error or not) is saved to a string which can be accessed later (mainly for testing purposes)
+------------------------------------------------------------------------
+r345 | shahid41@UTORONTO.CA | 2016-06-26 00:59:47 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added a getFileSystem method for testing
+------------------------------------------------------------------------
+r344 | shahid41@UTORONTO.CA | 2016-06-26 00:46:11 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added a couple more test cases
+------------------------------------------------------------------------
+r343 | haqueya1@UTORONTO.CA | 2016-06-26 00:43:29 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added a getter for stringToOutput.
+------------------------------------------------------------------------
+r342 | haqueya1@UTORONTO.CA | 2016-06-26 00:42:19 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Changed how Echo class interacts with Output.
+------------------------------------------------------------------------
+r341 | haqueya1@UTORONTO.CA | 2016-06-26 00:39:13 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Changed implementation with how PWD interacts with Output class.
+------------------------------------------------------------------------
+r340 | shahid41@UTORONTO.CA | 2016-06-26 00:25:01 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added all mkdir test cases
+------------------------------------------------------------------------
+r339 | shahid41@UTORONTO.CA | 2016-06-26 00:05:07 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Added one test case to mkdir
+------------------------------------------------------------------------
+r338 | haqueya1@UTORONTO.CA | 2016-06-26 00:04:00 -0400 (Sun, 26 Jun 2016) | 1 line
+
+Fixed manual method string output.
+------------------------------------------------------------------------
+r337 | haqueya1@UTORONTO.CA | 2016-06-25 23:55:59 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Deleted the Validator class.
+------------------------------------------------------------------------
+r336 | haqueya1@UTORONTO.CA | 2016-06-25 23:54:53 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Fixed LS manual method string output.
+------------------------------------------------------------------------
+r335 | haqueya1@UTORONTO.CA | 2016-06-25 23:51:17 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Completed implementation of Manual class.
+------------------------------------------------------------------------
+r334 | haqueya1@UTORONTO.CA | 2016-06-25 23:50:47 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Fixed manual method in Echo class.
+------------------------------------------------------------------------
+r333 | shahid41@UTORONTO.CA | 2016-06-25 23:29:03 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added two new test cases
+------------------------------------------------------------------------
+r332 | gaoxu1@UTORONTO.CA | 2016-06-25 23:24:43 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"created new mkdirTest class to test mkdir command"
+------------------------------------------------------------------------
+r331 | gaoxu1@UTORONTO.CA | 2016-06-25 23:24:14 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"wrong test created"
+------------------------------------------------------------------------
+r330 | gaoxu1@UTORONTO.CA | 2016-06-25 23:23:50 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"created new mkdirTest to test the mkdir command"
+------------------------------------------------------------------------
+r329 | gaoxu1@UTORONTO.CA | 2016-06-25 23:23:17 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"deleted mkdirTest, wrong file created"
+------------------------------------------------------------------------
+r328 | gaoxu1@UTORONTO.CA | 2016-06-25 23:21:09 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"made mkdirtest class to test mkdir command "
+------------------------------------------------------------------------
+r327 | shahid41@UTORONTO.CA | 2016-06-25 23:16:56 -0400 (Sat, 25 Jun 2016) | 2 lines
+
+Added PopD test cases
+
+------------------------------------------------------------------------
+r326 | vasant42@UTORONTO.CA | 2016-06-25 22:49:06 -0400 (Sat, 25 Jun 2016) | 1 line
+
+final daily scrum meeting
+------------------------------------------------------------------------
+r325 | shahid41@UTORONTO.CA | 2016-06-25 22:35:25 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added test cases for CD - cases where an error occurs and it does nothing
+------------------------------------------------------------------------
+r324 | shahid41@UTORONTO.CA | 2016-06-25 22:30:37 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Made all variables private
+------------------------------------------------------------------------
+r323 | shahid41@UTORONTO.CA | 2016-06-25 22:27:57 -0400 (Sat, 25 Jun 2016) | 2 lines
+
+Completed DirStack test cases
+
+------------------------------------------------------------------------
+r322 | haqueya1@UTORONTO.CA | 2016-06-25 22:18:10 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Changed execute method return type back to void.
+------------------------------------------------------------------------
+r321 | gaoxu1@UTORONTO.CA | 2016-06-25 22:10:12 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"created sprint june 25, completed cd class, echo classes and requires documentation"
+------------------------------------------------------------------------
+r320 | haqueya1@UTORONTO.CA | 2016-06-25 22:07:57 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Changed execute output type to String.
+------------------------------------------------------------------------
+r319 | shahid41@UTORONTO.CA | 2016-06-25 22:07:54 -0400 (Sat, 25 Jun 2016) | 2 lines
+
+Added CD test cases, is still missing the error exception test cases, will be added later
+
+------------------------------------------------------------------------
+r318 | haqueya1@UTORONTO.CA | 2016-06-25 21:39:42 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added a manual method to the Echo class.
+------------------------------------------------------------------------
+r317 | haqueya1@UTORONTO.CA | 2016-06-25 21:01:42 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added manual method to the command interface.
+------------------------------------------------------------------------
+r316 | haqueya1@UTORONTO.CA | 2016-06-25 20:59:39 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Created manual method for PWD class.
+------------------------------------------------------------------------
+r315 | haqueya1@UTORONTO.CA | 2016-06-25 20:55:11 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Implemented the manual method for the PushD class.
+------------------------------------------------------------------------
+r314 | shahid41@UTORONTO.CA | 2016-06-25 20:36:14 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Completed the PushD tests
+------------------------------------------------------------------------
+r313 | haqueya1@UTORONTO.CA | 2016-06-25 20:14:57 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Implemented manual method for PopD class.
+------------------------------------------------------------------------
+r312 | vasant42@UTORONTO.CA | 2016-06-25 20:06:12 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Fixed the test case where a wrong dirstack was being created
+------------------------------------------------------------------------
+r311 | vasant42@UTORONTO.CA | 2016-06-25 20:02:35 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added the root folder setup to the setup method
+------------------------------------------------------------------------
+r310 | shahid41@UTORONTO.CA | 2016-06-25 19:54:47 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Updated the first test
+------------------------------------------------------------------------
+r309 | haqueya1@UTORONTO.CA | 2016-06-25 19:46:02 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Created manual method for Mkdir class.
+------------------------------------------------------------------------
+r308 | shahid41@UTORONTO.CA | 2016-06-25 19:32:45 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added testcase for pushD
+------------------------------------------------------------------------
+r307 | haqueya1@UTORONTO.CA | 2016-06-25 19:27:04 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Created a manual method for the LS class.
+------------------------------------------------------------------------
+r306 | haqueya1@UTORONTO.CA | 2016-06-25 19:21:03 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Created manual method for History class.
+------------------------------------------------------------------------
+r305 | shahid41@UTORONTO.CA | 2016-06-25 19:17:01 -0400 (Sat, 25 Jun 2016) | 1 line
+
+committing a test file with an error to transfer over to another computer
+------------------------------------------------------------------------
+r304 | gaoxu1@UTORONTO.CA | 2016-06-25 19:10:53 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"added a case where the path given ends in a slash"
+------------------------------------------------------------------------
+r303 | haqueya1@UTORONTO.CA | 2016-06-25 19:10:06 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added newline characters to manual method output.
+------------------------------------------------------------------------
+r302 | haqueya1@UTORONTO.CA | 2016-06-25 19:09:07 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added newline characters to the manual method.
+------------------------------------------------------------------------
+r301 | haqueya1@UTORONTO.CA | 2016-06-25 19:07:54 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Added a newline character to the manual method output.
+------------------------------------------------------------------------
+r300 | haqueya1@UTORONTO.CA | 2016-06-25 19:07:12 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Updated the manual method inside the EchoOverwrite class.
+------------------------------------------------------------------------
+r299 | haqueya1@UTORONTO.CA | 2016-06-25 19:05:23 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Initialized Man command class.
+------------------------------------------------------------------------
+r298 | haqueya1@UTORONTO.CA | 2016-06-25 19:00:18 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Updated manual method in Exit class.
+------------------------------------------------------------------------
+r297 | haqueya1@UTORONTO.CA | 2016-06-25 18:59:47 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Updated manual method in EchoAppend class.
+------------------------------------------------------------------------
+r296 | haqueya1@UTORONTO.CA | 2016-06-25 18:42:15 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Created a manual method for the CD class.
+------------------------------------------------------------------------
+r295 | haqueya1@UTORONTO.CA | 2016-06-25 18:32:08 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Created manual method for Cat class.
+------------------------------------------------------------------------
+r294 | shahid41@UTORONTO.CA | 2016-06-25 17:17:48 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Fixed a minor bug
+------------------------------------------------------------------------
+r293 | shahid41@UTORONTO.CA | 2016-06-25 17:12:03 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Fixed a minor error and changed the error statement
+------------------------------------------------------------------------
+r292 | shahid41@UTORONTO.CA | 2016-06-25 17:10:06 -0400 (Sat, 25 Jun 2016) | 1 line
+
+added an error statement for trying to get an item out of an empty dirstack
+------------------------------------------------------------------------
+r291 | gaoxu1@UTORONTO.CA | 2016-06-25 16:58:38 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"Documented EchoOverwrite Class"
+------------------------------------------------------------------------
+r290 | gaoxu1@UTORONTO.CA | 2016-06-25 16:58:25 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"Documented EchoAppend class"
+------------------------------------------------------------------------
+r289 | gaoxu1@UTORONTO.CA | 2016-06-25 16:58:10 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"created more efficient CD by deleting repeating code, documented CD class"
+------------------------------------------------------------------------
+r288 | gaoxu1@UTORONTO.CA | 2016-06-25 16:57:32 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"documented Cat class and corrected small bug where the command would end if a file is not found"
+------------------------------------------------------------------------
+r287 | vasant42@UTORONTO.CA | 2016-06-25 01:36:56 -0400 (Sat, 25 Jun 2016) | 1 line
+
+Code has been properly formatted (there was a line that passed the 80 character mark)
+------------------------------------------------------------------------
+r286 | gaoxu1@UTORONTO.CA | 2016-06-25 01:27:31 -0400 (Sat, 25 Jun 2016) | 1 line
+
+"created revision that allows both ".." and "." to be in the middle of the path given"
+------------------------------------------------------------------------
+r285 | vasant42@UTORONTO.CA | 2016-06-24 18:37:20 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Moved a section of code into its own function (removeSingleDot); Fixed a bug in removeDots when working with JUST ".." in the name; Fixed a bug where ls .. would not work
+------------------------------------------------------------------------
+r284 | vasant42@UTORONTO.CA | 2016-06-24 18:36:21 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Moved a section of the code into its own function; Fixed small bugs for certain cases
+------------------------------------------------------------------------
+r283 | vasant42@UTORONTO.CA | 2016-06-24 18:09:44 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Re-did the "." case to account for more casex (ie: At the beginning; at the end)
+------------------------------------------------------------------------
+r282 | vasant42@UTORONTO.CA | 2016-06-24 16:56:51 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Minor syntax fix; changed "/." to "./" (would have caused an error in select cases if left unchanged)
+------------------------------------------------------------------------
+r281 | vasant42@UTORONTO.CA | 2016-06-24 16:55:17 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Mkdir can now handle the "." operator case properly
+------------------------------------------------------------------------
+r280 | vasant42@UTORONTO.CA | 2016-06-24 16:54:50 -0400 (Fri, 24 Jun 2016) | 1 line
+
+LS can now handle the "." operator properly
+------------------------------------------------------------------------
+r279 | vasant42@UTORONTO.CA | 2016-06-24 15:32:05 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Added the ability to handle filepaths with a "/" at the end; Can now correctly check if a specified file path has no slash at the end (which is musn't), will print a path error if so
+------------------------------------------------------------------------
+r278 | vasant42@UTORONTO.CA | 2016-06-24 02:53:05 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Fully commented and formated; All present bugs have been fixed
+------------------------------------------------------------------------
+r277 | vasant42@UTORONTO.CA | 2016-06-24 02:52:47 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Fully commented and formated; Finished the tree implementation; All bugs have been fixed
+------------------------------------------------------------------------
+r276 | vasant42@UTORONTO.CA | 2016-06-24 02:52:12 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Fully commented and formated; Work for all possible cases; All present bugs have been fixed; Separated into smaller helper methods
+------------------------------------------------------------------------
+r275 | vasant42@UTORONTO.CA | 2016-06-24 02:51:34 -0400 (Fri, 24 Jun 2016) | 1 line
+
+Fully commented and formatted; Work for all possible cases; All present bugs have been fixed
+------------------------------------------------------------------------
+r274 | gaoxu1@UTORONTO.CA | 2016-06-23 22:57:55 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"made some changes as to how folders that do not start with "/" is implemented"
+------------------------------------------------------------------------
+r273 | vasant42@UTORONTO.CA | 2016-06-23 22:30:47 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Can now perfectly handle any ".." case; fixed a bug in the local path case
+------------------------------------------------------------------------
+r272 | gaoxu1@UTORONTO.CA | 2016-06-23 21:57:05 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"fixed missing case"
+------------------------------------------------------------------------
+r271 | gaoxu1@UTORONTO.CA | 2016-06-23 21:52:30 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"Corrected error that didn't allow inheritance as wanted"
+------------------------------------------------------------------------
+r270 | gaoxu1@UTORONTO.CA | 2016-06-23 21:51:57 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"corrected error that didn't allow inheritance as wanted"
+------------------------------------------------------------------------
+r269 | vasant42@UTORONTO.CA | 2016-06-23 20:07:48 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added folder collaboration and removed parent class
+------------------------------------------------------------------------
+r268 | shahid41@UTORONTO.CA | 2016-06-23 20:05:11 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a DirStack collaboration
+------------------------------------------------------------------------
+r267 | haqueya1@UTORONTO.CA | 2016-06-23 19:59:37 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added Echo to the hashtable and fixed ProQuery's interaction with the History class.
+------------------------------------------------------------------------
+r266 | shahid41@UTORONTO.CA | 2016-06-23 19:37:21 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Instantiazed dirstack as it was not done
+------------------------------------------------------------------------
+r265 | shahid41@UTORONTO.CA | 2016-06-23 19:36:39 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added an error statement
+------------------------------------------------------------------------
+r264 | shahid41@UTORONTO.CA | 2016-06-23 19:22:46 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a getstack for testing for the dirstack class
+------------------------------------------------------------------------
+r263 | haqueya1@UTORONTO.CA | 2016-06-23 19:07:22 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed test case that Marion wrote because it was giving us a heart attack thinking our program was inconceivably bugged.
+------------------------------------------------------------------------
+r262 | haqueya1@UTORONTO.CA | 2016-06-23 19:03:17 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Created an Echo class which acts a sorter for the ProQuery to make use of the EchoAppend/EchoOverwrite classes depending on the command given.
+------------------------------------------------------------------------
+r261 | haqueya1@UTORONTO.CA | 2016-06-23 19:01:39 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Committed new echo class CRC card which acts as a sort for the overwrite/append behaviours.
+------------------------------------------------------------------------
+r260 | shahid41@UTORONTO.CA | 2016-06-23 18:58:25 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a way to output Lists
+------------------------------------------------------------------------
+r259 | shahid41@UTORONTO.CA | 2016-06-23 18:56:52 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Fixed a minor bug in the history class
+------------------------------------------------------------------------
+r258 | haqueya1@UTORONTO.CA | 2016-06-23 18:53:57 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed man as a collaborator.
+------------------------------------------------------------------------
+r257 | shahid41@UTORONTO.CA | 2016-06-23 18:24:18 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Updated how the output interacts, but there is a bug in output 
+------------------------------------------------------------------------
+r256 | gaoxu1@UTORONTO.CA | 2016-06-23 18:12:27 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"fixed small bug in Cat where .equals(null) returned an error"
+------------------------------------------------------------------------
+r255 | haqueya1@UTORONTO.CA | 2016-06-23 17:51:02 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Changed ProQuery to work with history command.
+------------------------------------------------------------------------
+r254 | vasant42@UTORONTO.CA | 2016-06-23 17:45:55 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Fixed a bug in getObject when working with local names and in the home directory
+------------------------------------------------------------------------
+r253 | vasant42@UTORONTO.CA | 2016-06-23 17:45:28 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Fixed 2 bugs, one with a cd in the home directory and changed a line so that the main file system is called and not a folders
+------------------------------------------------------------------------
+r252 | vasant42@UTORONTO.CA | 2016-06-23 15:10:00 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed calls to the deleted getObject(int)
+------------------------------------------------------------------------
+r251 | shahid41@UTORONTO.CA | 2016-06-23 14:44:11 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Updated the history command to be fixed for any errors
+------------------------------------------------------------------------
+r250 | gaoxu1@UTORONTO.CA | 2016-06-23 14:44:09 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"corrected small bug where cat would print 3 empty lines regardless if there's only one file needed to be printed"
+------------------------------------------------------------------------
+r249 | gaoxu1@UTORONTO.CA | 2016-06-23 14:42:39 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"corrected spelling mistake in printContents that would result in the entire array being printed"
+------------------------------------------------------------------------
+r248 | shahid41@UTORONTO.CA | 2016-06-23 14:37:50 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a new error statement in the output class
+------------------------------------------------------------------------
+r247 | gaoxu1@UTORONTO.CA | 2016-06-23 13:57:40 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"created test case that would fail, need to be fixed"
+------------------------------------------------------------------------
+r246 | gaoxu1@UTORONTO.CA | 2016-06-23 13:57:04 -0400 (Thu, 23 Jun 2016) | 1 line
+
+"fixed small changes in CD"
+------------------------------------------------------------------------
+r245 | shahid41@UTORONTO.CA | 2016-06-23 13:37:29 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Updated PushD so it works smoothly with the CommandInterface
+------------------------------------------------------------------------
+r244 | shahid41@UTORONTO.CA | 2016-06-23 13:37:06 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Updated popD so it works smoothly with the CommandInterface
+------------------------------------------------------------------------
+r243 | shahid41@UTORONTO.CA | 2016-06-23 13:18:07 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed the history object variable that was created
+------------------------------------------------------------------------
+r242 | shahid41@UTORONTO.CA | 2016-06-23 13:15:05 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a get dirStack method and removed the setHistory method
+------------------------------------------------------------------------
+r241 | shahid41@UTORONTO.CA | 2016-06-23 13:14:18 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a getDirStack method to the interface and removed the sethistory method
+------------------------------------------------------------------------
+r240 | vasant42@UTORONTO.CA | 2016-06-23 02:28:08 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Made a functionality change to removeDots; can now handle commands separated by names; untested as of yet
+------------------------------------------------------------------------
+r239 | vasant42@UTORONTO.CA | 2016-06-23 02:15:35 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added the creation of an initial empty folder
+------------------------------------------------------------------------
+r238 | vasant42@UTORONTO.CA | 2016-06-23 02:15:06 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added abstract methods for the ones that were added to JFileSystem
+------------------------------------------------------------------------
+r237 | vasant42@UTORONTO.CA | 2016-06-23 02:14:46 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added a root folder; removed getObject(int); added setDirStack and setHistory (at the request of team member) to be used for the History and DirStack classes
+------------------------------------------------------------------------
+r236 | vasant42@UTORONTO.CA | 2016-06-23 02:10:49 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Made changed to incorporate the changes made in FileSystem (making a root Folder); Seperated into help function to lower the size of execute
+------------------------------------------------------------------------
+r235 | haqueya1@UTORONTO.CA | 2016-06-23 00:30:22 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Renamed PWD CRC file and add CommandInterface as a parent class.
+------------------------------------------------------------------------
+r234 | shahid41@UTORONTO.CA | 2016-06-23 00:27:21 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Modified collaborators
+------------------------------------------------------------------------
+r233 | shahid41@UTORONTO.CA | 2016-06-23 00:26:06 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Modified collaborators due to interface
+------------------------------------------------------------------------
+r232 | haqueya1@UTORONTO.CA | 2016-06-23 00:25:14 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Changed responsibilities and added DirStack as a collaborator.
+------------------------------------------------------------------------
+r231 | shahid41@UTORONTO.CA | 2016-06-23 00:22:01 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Updated responsibilities and collaborators for JShell
+------------------------------------------------------------------------
+r230 | shahid41@UTORONTO.CA | 2016-06-23 00:16:15 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed collaborations and parent classes
+------------------------------------------------------------------------
+r229 | shahid41@UTORONTO.CA | 2016-06-23 00:15:16 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Removed the Validator crc card as the class is no longer used 
+------------------------------------------------------------------------
+r228 | shahid41@UTORONTO.CA | 2016-06-23 00:12:40 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added back the Folder.txt class with updated responsibilities and parent
+------------------------------------------------------------------------
+r227 | shahid41@UTORONTO.CA | 2016-06-23 00:04:34 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Deleted the Folder class as it was named improperly, will add it back with new implementation
+------------------------------------------------------------------------
+r226 | shahid41@UTORONTO.CA | 2016-06-23 00:03:09 -0400 (Thu, 23 Jun 2016) | 1 line
+
+Added the JFileSystem.txt crc card
+------------------------------------------------------------------------
+r225 | gaoxu1@UTORONTO.CA | 2016-06-22 23:57:44 -0400 (Wed, 22 Jun 2016) | 1 line
+
+"completed Sprint June 22, completed all assigned classes, will now finish testing an correcting errors"
+------------------------------------------------------------------------
+r224 | shahid41@UTORONTO.CA | 2016-06-22 23:56:01 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Changed the responsibilities of FileSystem as it is now an interface for JFileSystem
+------------------------------------------------------------------------
+r223 | shahid41@UTORONTO.CA | 2016-06-22 23:55:06 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Added scrum meeting log for June 22nd
+------------------------------------------------------------------------
+r222 | gaoxu1@UTORONTO.CA | 2016-06-22 23:54:12 -0400 (Wed, 22 Jun 2016) | 1 line
+
+"started sprint of june22"
+------------------------------------------------------------------------
+r221 | haqueya1@UTORONTO.CA | 2016-06-22 23:53:49 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Added daily scrum for Sprint 3, June 22.
+------------------------------------------------------------------------
+r220 | shahid41@UTORONTO.CA | 2016-06-22 23:50:21 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Modified parent class to JFileSystem
+------------------------------------------------------------------------
+r219 | haqueya1@UTORONTO.CA | 2016-06-22 23:48:07 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Updated LS CRC card to have CommandInterface as a parent.
+------------------------------------------------------------------------
+r218 | shahid41@UTORONTO.CA | 2016-06-22 23:47:59 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Removed man from the Parent class
+------------------------------------------------------------------------
+r217 | haqueya1@UTORONTO.CA | 2016-06-22 23:40:21 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Added CommandInterface as a parent class and got rid of Man as a collaborator.
+------------------------------------------------------------------------
+r216 | haqueya1@UTORONTO.CA | 2016-06-22 23:38:28 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Added CommandInterface as a parent class.
+------------------------------------------------------------------------
+r215 | shahid41@UTORONTO.CA | 2016-06-22 23:35:50 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Changed parent classes and collaborators as per our new design
+------------------------------------------------------------------------
+r214 | haqueya1@UTORONTO.CA | 2016-06-22 23:34:04 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Added the new CommandInterface CRC card.
+------------------------------------------------------------------------
+r213 | shahid41@UTORONTO.CA | 2016-06-22 23:27:11 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Added Parent class man and removed it from the collaborations
+------------------------------------------------------------------------
+r212 | vasant42@UTORONTO.CA | 2016-06-22 23:19:43 -0400 (Wed, 22 Jun 2016) | 1 line
+
+The final daily scrum meeting of sprint 3
+------------------------------------------------------------------------
+r211 | shahid41@UTORONTO.CA | 2016-06-22 22:40:48 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Implemented PopD as per group decision as it requires an existing directory stack to be implemented into it
+------------------------------------------------------------------------
+r210 | shahid41@UTORONTO.CA | 2016-06-22 22:35:39 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Created the PushD class as per team implementation decisions to make it exempt from the overall interface as the interface wouldn't allow working with a previously existing object/stack
+------------------------------------------------------------------------
+r209 | shahid41@UTORONTO.CA | 2016-06-22 22:34:43 -0400 (Wed, 22 Jun 2016) | 1 line
+
+Created the DirStack class as per group implementation decision
+------------------------------------------------------------------------
+r208 | haqueya1@UTORONTO.CA | 2016-06-21 16:27:42 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Made JShell collaborate with JFileSystem and ProQuery.
+------------------------------------------------------------------------
+r207 | haqueya1@UTORONTO.CA | 2016-06-21 16:27:06 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed printError message.
+------------------------------------------------------------------------
+r206 | haqueya1@UTORONTO.CA | 2016-06-21 16:25:15 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Updated so that exception cases print out a printError using the Output class.
+------------------------------------------------------------------------
+r205 | haqueya1@UTORONTO.CA | 2016-06-21 16:13:46 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed CD so that it doesn't require full class path in the current directory.
+------------------------------------------------------------------------
+r204 | shahid41@UTORONTO.CA | 2016-06-21 16:10:09 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Reverted history to old implementation after group discussion 
+------------------------------------------------------------------------
+r203 | vasant42@UTORONTO.CA | 2016-06-21 16:10:05 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added a case too be able to handle "/" at the end
+------------------------------------------------------------------------
+r202 | vasant42@UTORONTO.CA | 2016-06-21 16:04:25 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added the ability to accept .. as a valid argument
+------------------------------------------------------------------------
+r201 | haqueya1@UTORONTO.CA | 2016-06-21 15:37:57 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed EchoOverwrite.
+------------------------------------------------------------------------
+r200 | haqueya1@UTORONTO.CA | 2016-06-21 15:36:18 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed parameter to String[] from String
+------------------------------------------------------------------------
+r199 | vasant42@UTORONTO.CA | 2016-06-21 15:35:48 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added ability to accept a local file name as a parameter
+------------------------------------------------------------------------
+r198 | vasant42@UTORONTO.CA | 2016-06-21 14:32:33 -0400 (Tue, 21 Jun 2016) | 1 line
+
+properly formatted
+------------------------------------------------------------------------
+r197 | vasant42@UTORONTO.CA | 2016-06-21 14:31:58 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changed a != comparison with an object and string to .equals because it would cause a bug
+------------------------------------------------------------------------
+r196 | vasant42@UTORONTO.CA | 2016-06-21 13:29:27 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added a clause to getObject to ensure not errors arise
+------------------------------------------------------------------------
+r195 | vasant42@UTORONTO.CA | 2016-06-21 13:29:09 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed a bug where loops would go over and cause outofbounds error
+------------------------------------------------------------------------
+r194 | vasant42@UTORONTO.CA | 2016-06-21 13:17:26 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed an infinite loop bug
+------------------------------------------------------------------------
+r193 | vasant42@UTORONTO.CA | 2016-06-21 13:17:07 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed an infinite loop bug
+------------------------------------------------------------------------
+r192 | vasant42@UTORONTO.CA | 2016-06-21 13:11:19 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added get childrenNames function
+------------------------------------------------------------------------
+r191 | vasant42@UTORONTO.CA | 2016-06-21 13:08:51 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed a bug where no children caused a null pointer error
+------------------------------------------------------------------------
+r190 | vasant42@UTORONTO.CA | 2016-06-21 12:54:00 -0400 (Tue, 21 Jun 2016) | 1 line
+
+fixed a bug where it could not create directories at /
+------------------------------------------------------------------------
+r189 | vasant42@UTORONTO.CA | 2016-06-21 12:38:52 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Overloaded constructor
+------------------------------------------------------------------------
+r188 | vasant42@UTORONTO.CA | 2016-06-21 12:37:07 -0400 (Tue, 21 Jun 2016) | 2 lines
+
+removed an output command
+
+------------------------------------------------------------------------
+r187 | haqueya1@UTORONTO.CA | 2016-06-21 11:38:39 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Made progress on ProQuery.
+------------------------------------------------------------------------
+r186 | gaoxu1@UTORONTO.CA | 2016-06-21 03:12:28 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"changed "==" statements to ".equals" statements to correct logical bug"
+------------------------------------------------------------------------
+r185 | gaoxu1@UTORONTO.CA | 2016-06-21 03:05:53 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"completed cat command to display the contents of a file"
+------------------------------------------------------------------------
+r184 | gaoxu1@UTORONTO.CA | 2016-06-21 03:05:32 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"corrected parameter for constructor so that it accepts a string array"
+------------------------------------------------------------------------
+r183 | shahid41@UTORONTO.CA | 2016-06-21 02:05:46 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added so it takes in a file System - once again, this entire class is temporary until further implementation issues are resolved
+------------------------------------------------------------------------
+r182 | shahid41@UTORONTO.CA | 2016-06-21 02:01:05 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Created the dirstack class with temporary implementation of popD and pushD (will be heavily changed)
+------------------------------------------------------------------------
+r181 | vasant42@UTORONTO.CA | 2016-06-21 01:51:07 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added a constructor, so it is consistent with all other command classes
+------------------------------------------------------------------------
+r180 | gaoxu1@UTORONTO.CA | 2016-06-21 01:47:34 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"added method getBody() to return the contents of the file"
+------------------------------------------------------------------------
+r179 | gaoxu1@UTORONTO.CA | 2016-06-21 01:46:54 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"corrected parameters for echoAppend"
+------------------------------------------------------------------------
+r178 | haqueya1@UTORONTO.CA | 2016-06-21 01:39:31 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Updated keys for commandKeys hashtable.
+------------------------------------------------------------------------
+r177 | haqueya1@UTORONTO.CA | 2016-06-21 01:37:48 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added functionality for commands with numerous parameters.
+------------------------------------------------------------------------
+r176 | gaoxu1@UTORONTO.CA | 2016-06-21 01:37:10 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"reupdated pwd to match proquery's requirements"
+------------------------------------------------------------------------
+r175 | vasant42@UTORONTO.CA | 2016-06-21 01:33:47 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added the ability to accept multiple arguments and list files
+------------------------------------------------------------------------
+r174 | shahid41@UTORONTO.CA | 2016-06-21 01:30:10 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Updated history class to work with the static output class
+------------------------------------------------------------------------
+r173 | vasant42@UTORONTO.CA | 2016-06-21 01:19:07 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changed FileSystem to JFileSystem in the constructor
+------------------------------------------------------------------------
+r172 | vasant42@UTORONTO.CA | 2016-06-21 01:15:10 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changed FileSystem to JFileSystem, updated so execute only accepts no parameters
+------------------------------------------------------------------------
+r171 | vasant42@UTORONTO.CA | 2016-06-21 01:14:00 -0400 (Tue, 21 Jun 2016) | 1 line
+
+changed FileSystem to JFileSystem in the constructor
+------------------------------------------------------------------------
+r170 | vasant42@UTORONTO.CA | 2016-06-21 01:13:25 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changed FileSystem to JFileSystem
+------------------------------------------------------------------------
+r169 | vasant42@UTORONTO.CA | 2016-06-21 01:12:28 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Added the ability for mkdir to accept multiple arguments
+------------------------------------------------------------------------
+r168 | vasant42@UTORONTO.CA | 2016-06-21 01:03:13 -0400 (Tue, 21 Jun 2016) | 1 line
+
+changed the parent class from FileSystem to JFileSystem
+------------------------------------------------------------------------
+r167 | vasant42@UTORONTO.CA | 2016-06-21 01:02:36 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changed the inheritance so Folder is a child class of File, as we were told to in the results file from a1
+------------------------------------------------------------------------
+r166 | vasant42@UTORONTO.CA | 2016-06-21 00:54:52 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changed the class into an interface, as per lesson learned this week
+------------------------------------------------------------------------
+r165 | vasant42@UTORONTO.CA | 2016-06-21 00:54:14 -0400 (Tue, 21 Jun 2016) | 1 line
+
+The JFileSystem which implements FileSystem (using things I learned from lecture 7)
+------------------------------------------------------------------------
+r164 | gaoxu1@UTORONTO.CA | 2016-06-21 00:43:08 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"replaced error message (incorrectly coded) with creating a new file"
+------------------------------------------------------------------------
+r163 | gaoxu1@UTORONTO.CA | 2016-06-21 00:32:06 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"added all commands to the CommandInterface"
+------------------------------------------------------------------------
+r162 | haqueya1@UTORONTO.CA | 2016-06-21 00:25:31 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Fixed typo in CommandInterface.
+------------------------------------------------------------------------
+r161 | gaoxu1@UTORONTO.CA | 2016-06-21 00:23:49 -0400 (Tue, 21 Jun 2016) | 1 line
+
+"made nonstatic function, made it part of CommandInterface"
+------------------------------------------------------------------------
+r160 | haqueya1@UTORONTO.CA | 2016-06-21 00:21:55 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Committing the CommandInterface which all commands will inherit the execute function from as it is used by the ProQuery.
+------------------------------------------------------------------------
+r159 | haqueya1@UTORONTO.CA | 2016-06-21 00:06:49 -0400 (Tue, 21 Jun 2016) | 1 line
+
+Changing ProQuery implementation so that it falls in line with the design we learned in tutorial today with the use of a hashtable.
+------------------------------------------------------------------------
+r158 | gaoxu1@UTORONTO.CA | 2016-06-20 17:44:13 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"documented EchoAppend class and added man method"
+------------------------------------------------------------------------
+r157 | gaoxu1@UTORONTO.CA | 2016-06-20 17:35:36 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"completed documentation for the Output class"
+------------------------------------------------------------------------
+r156 | gaoxu1@UTORONTO.CA | 2016-06-20 17:32:39 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"completed documentation for EchoOverwrite, and completed man function"
+------------------------------------------------------------------------
+r155 | gaoxu1@UTORONTO.CA | 2016-06-20 17:16:33 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"completed documentation and man method for CD"
+------------------------------------------------------------------------
+r154 | gaoxu1@UTORONTO.CA | 2016-06-20 03:08:39 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"Deleted EchoOverride class, create new EchoOverwrite class with the same purpose. Completed EchoOverwrite class, still requires documentation"
+------------------------------------------------------------------------
+r153 | gaoxu1@UTORONTO.CA | 2016-06-20 03:07:54 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"completed Output class, still requires documentation"
+------------------------------------------------------------------------
+r152 | gaoxu1@UTORONTO.CA | 2016-06-20 03:07:23 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"edited setBody method"
+------------------------------------------------------------------------
+r151 | gaoxu1@UTORONTO.CA | 2016-06-20 03:06:40 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"completed EchoAppend class, still requires documentation"
+------------------------------------------------------------------------
+r150 | gaoxu1@UTORONTO.CA | 2016-06-20 03:06:08 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"added constructor"
+------------------------------------------------------------------------
+r149 | gaoxu1@UTORONTO.CA | 2016-06-20 02:39:05 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"correct small spelling mistake in getChild method"
+------------------------------------------------------------------------
+r148 | gaoxu1@UTORONTO.CA | 2016-06-20 02:37:14 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"Changed method getChildren to getFile and now only returns a file"
+------------------------------------------------------------------------
+r147 | gaoxu1@UTORONTO.CA | 2016-06-20 02:31:12 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"added new method getChildren(Object name) into Folder to obtain a child from a folder"
+------------------------------------------------------------------------
+r146 | gaoxu1@UTORONTO.CA | 2016-06-20 01:41:12 -0400 (Mon, 20 Jun 2016) | 1 line
+
+"fixed minor bug in CD, added error statements"
+------------------------------------------------------------------------
+r145 | vasant42@UTORONTO.CA | 2016-06-20 00:49:43 -0400 (Mon, 20 Jun 2016) | 1 line
+
+Added the ability to be able to display the contents of the home directory
+------------------------------------------------------------------------
+r144 | gaoxu1@UTORONTO.CA | 2016-06-19 23:57:35 -0400 (Sun, 19 Jun 2016) | 1 line
+
+"created sprint #3 completed some classes, majority of work is testing and sorting out small bugs"
+------------------------------------------------------------------------
+r143 | shahid41@UTORONTO.CA | 2016-06-19 23:36:14 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Added daily scrum meeting log for June 19th
+------------------------------------------------------------------------
+r142 | vasant42@UTORONTO.CA | 2016-06-19 23:34:47 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Small grammar correction (outputted -> display)
+------------------------------------------------------------------------
+r141 | haqueya1@UTORONTO.CA | 2016-06-19 23:32:18 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Added daily scrum for Sprint 3, June 19th.
+------------------------------------------------------------------------
+r140 | vasant42@UTORONTO.CA | 2016-06-19 23:23:45 -0400 (Sun, 19 Jun 2016) | 1 line
+
+dailyScrum meeting for the first half of the last sprint
+------------------------------------------------------------------------
+r139 | vasant42@UTORONTO.CA | 2016-06-19 23:18:32 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Final sprint backlog; Most of the hard coding is finished with only a few small functionality things to add; Mostly testing; Basic testing will be done by each person for their own class, while more rigorous testing will be written by 1 group member.
+------------------------------------------------------------------------
+r138 | haqueya1@UTORONTO.CA | 2016-06-19 20:54:16 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Changed exit class into static function to interact with ProQuery.
+------------------------------------------------------------------------
+r137 | haqueya1@UTORONTO.CA | 2016-06-19 20:44:11 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Changed the printError method in output to a static method to interact with ProQuery.
+------------------------------------------------------------------------
+r136 | gaoxu1@UTORONTO.CA | 2016-06-19 20:39:03 -0400 (Sun, 19 Jun 2016) | 1 line
+
+"updated constructor for File class"
+------------------------------------------------------------------------
+r135 | haqueya1@UTORONTO.CA | 2016-06-19 20:10:21 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Further completed ProQuery code. Need to discuss how to interact with other command classes.
+------------------------------------------------------------------------
+r134 | vasant42@UTORONTO.CA | 2016-06-19 19:53:36 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Accidentally deleted a function that was essential to a group members class (CD). Has now been resolved.
+------------------------------------------------------------------------
+r133 | vasant42@UTORONTO.CA | 2016-06-19 19:42:02 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Accidentally deleted a function that was essential for Mkdir to work. This has been fixed.
+------------------------------------------------------------------------
+r132 | vasant42@UTORONTO.CA | 2016-06-19 19:38:54 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Comments added, and code formatted properly
+------------------------------------------------------------------------
+r131 | vasant42@UTORONTO.CA | 2016-06-19 19:19:09 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Resolved a conflict by using my file; incorporated changes made by other group member into mine
+------------------------------------------------------------------------
+r130 | gaoxu1@UTORONTO.CA | 2016-06-19 19:04:27 -0400 (Sun, 19 Jun 2016) | 1 line
+
+"corrected spelling mistakes, added two new methods: setCurrFolder, getCurrFolder"
+------------------------------------------------------------------------
+r129 | gaoxu1@UTORONTO.CA | 2016-06-19 19:03:55 -0400 (Sun, 19 Jun 2016) | 1 line
+
+"created PWD class to print the working directory, requires documentation"
+------------------------------------------------------------------------
+r128 | gaoxu1@UTORONTO.CA | 2016-06-19 19:03:21 -0400 (Sun, 19 Jun 2016) | 1 line
+
+"Created and completed CD class with help from FileSystem methods, can traverse through folders, need documentation"
+------------------------------------------------------------------------
+r127 | vasant42@UTORONTO.CA | 2016-06-19 18:35:40 -0400 (Sun, 19 Jun 2016) | 2 lines
+
+Added the getName function which is to be used in the getObject function in FileSystem
+
+------------------------------------------------------------------------
+r126 | vasant42@UTORONTO.CA | 2016-06-19 04:11:11 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Formatting change, and minor name changes to variable
+------------------------------------------------------------------------
+r125 | vasant42@UTORONTO.CA | 2016-06-19 04:10:29 -0400 (Sun, 19 Jun 2016) | 1 line
+
+added the relative path cases for a directory input
+------------------------------------------------------------------------
+r124 | vasant42@UTORONTO.CA | 2016-06-19 04:07:57 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Bug fix to the relative path case
+------------------------------------------------------------------------
+r123 | vasant42@UTORONTO.CA | 2016-06-19 04:01:57 -0400 (Sun, 19 Jun 2016) | 2 lines
+
+Fixed the call to add the children name to the vector
+
+------------------------------------------------------------------------
+r122 | vasant42@UTORONTO.CA | 2016-06-19 03:52:44 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Added a new way of searching through the directories, similar to searching through a tree
+------------------------------------------------------------------------
+r121 | vasant42@UTORONTO.CA | 2016-06-19 03:52:11 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Changed function call from getObj to getObject
+------------------------------------------------------------------------
+r120 | vasant42@UTORONTO.CA | 2016-06-19 03:49:36 -0400 (Sun, 19 Jun 2016) | 1 line
+
+added getAllChildren which returns a vector of all the children of the directory
+------------------------------------------------------------------------
+r119 | vasant42@UTORONTO.CA | 2016-06-19 03:49:01 -0400 (Sun, 19 Jun 2016) | 1 line
+
+Added the ability to create a directory using a relative path name; added the ability to use the '..' keyword
+------------------------------------------------------------------------
+r118 | haqueya1@UTORONTO.CA | 2016-06-16 23:41:14 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added daily scrum for June 16th during the 2nd Sprint.
+------------------------------------------------------------------------
+r117 | gaoxu1@UTORONTO.CA | 2016-06-16 23:33:29 -0400 (Thu, 16 Jun 2016) | 1 line
+
+"Created third scrum, didn't do as much as I had hoped but still accomplished significant results"
+------------------------------------------------------------------------
+r116 | haqueya1@UTORONTO.CA | 2016-06-16 23:31:23 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added Cat, Man and ProQuery classes.
+------------------------------------------------------------------------
+r115 | shahid41@UTORONTO.CA | 2016-06-16 22:23:22 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added daily scrum meeting log for June 16th
+------------------------------------------------------------------------
+r114 | gaoxu1@UTORONTO.CA | 2016-06-16 19:55:18 -0400 (Thu, 16 Jun 2016) | 1 line
+
+"Created new EchoOverride class, started working on making new file method, not fully functional"
+------------------------------------------------------------------------
+r113 | gaoxu1@UTORONTO.CA | 2016-06-16 19:54:26 -0400 (Thu, 16 Jun 2016) | 1 line
+
+"initialized EchoAppend class, planned out implementation"
+------------------------------------------------------------------------
+r112 | gaoxu1@UTORONTO.CA | 2016-06-16 18:08:54 -0400 (Thu, 16 Jun 2016) | 1 line
+
+"updated File class to contain a string body"
+------------------------------------------------------------------------
+r111 | vasant42@UTORONTO.CA | 2016-06-16 17:54:14 -0400 (Thu, 16 Jun 2016) | 1 line
+
+The dailySrcum for the second half of the 2nd sprint
+------------------------------------------------------------------------
+r110 | vasant42@UTORONTO.CA | 2016-06-16 17:45:06 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added the ability to track whether a certain directory is at the root or not; Needed for the implementation of mkdir; may be removed if found to be useless
+------------------------------------------------------------------------
+r109 | vasant42@UTORONTO.CA | 2016-06-16 17:41:24 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added a relativePathChecker, which checks if a path relative to the current directory is valid or not (I previously did not know that this was a valid argument)
+------------------------------------------------------------------------
+r108 | vasant42@UTORONTO.CA | 2016-06-16 17:33:10 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Added the capability to list all children within the current working directory; To do: add the ability to accept arguments
+------------------------------------------------------------------------
+r107 | vasant42@UTORONTO.CA | 2016-06-16 17:31:44 -0400 (Thu, 16 Jun 2016) | 1 line
+
+Minor changes; Put some code into comment form to be removed later
+------------------------------------------------------------------------
+r106 | vasant42@UTORONTO.CA | 2016-06-16 17:30:58 -0400 (Thu, 16 Jun 2016) | 1 line
+
+added a vector to be able to store the String version of a folders children
+------------------------------------------------------------------------
+r105 | vasant42@UTORONTO.CA | 2016-06-14 00:51:42 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Made use of the new function checkValidPath in Filesystem
+------------------------------------------------------------------------
+r104 | vasant42@UTORONTO.CA | 2016-06-14 00:51:08 -0400 (Tue, 14 Jun 2016) | 1 line
+
+Added a function  that checks if the given file path is one that exists already
+------------------------------------------------------------------------
+r103 | haqueya1@UTORONTO.CA | 2016-06-13 23:54:05 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added scrum for June 13th.
+------------------------------------------------------------------------
+r102 | gaoxu1@UTORONTO.CA | 2016-06-13 23:39:06 -0400 (Mon, 13 Jun 2016) | 1 line
+
+"created second sprint log, complete small tasks, starting majority of the code now"
+------------------------------------------------------------------------
+r101 | shahid41@UTORONTO.CA | 2016-06-13 23:37:43 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Committing appropriately named sprint scrum file
+------------------------------------------------------------------------
+r100 | shahid41@UTORONTO.CA | 2016-06-13 23:36:44 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Removed my scrum textfile as it was named incorrectly (sprint1 instead of sprint2)
+------------------------------------------------------------------------
+r99 | shahid41@UTORONTO.CA | 2016-06-13 22:55:13 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Placed in scrum meeting for June 13
+------------------------------------------------------------------------
+r98 | vasant42@UTORONTO.CA | 2016-06-13 22:49:46 -0400 (Mon, 13 Jun 2016) | 1 line
+
+The daily scrums meeting, that took place today (Monday, June 13)
+------------------------------------------------------------------------
+r97 | shahid41@UTORONTO.CA | 2016-06-13 22:41:50 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Made all methods public for global use
+------------------------------------------------------------------------
+r96 | shahid41@UTORONTO.CA | 2016-06-13 22:40:56 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added a history object and determined validity of user input using the Validator class, awaiting the proQuery class to process input
+------------------------------------------------------------------------
+r95 | vasant42@UTORONTO.CA | 2016-06-13 22:26:58 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Sprint backlog for this week, most everything from last backlog has been fulfilled; attempting to finish coding this week, and use the next week as a testing/bug fixing sprint; last backlog was not submitted at the correct date on the fact that, although the sprint backlog was created, no scrum leader was assigned for that week.
+------------------------------------------------------------------------
+r94 | gaoxu1@UTORONTO.CA | 2016-06-13 22:11:33 -0400 (Mon, 13 Jun 2016) | 1 line
+
+"Updated LS crc with parent class, created CAT crc with child LS"
+------------------------------------------------------------------------
+r93 | gaoxu1@UTORONTO.CA | 2016-06-13 22:07:01 -0400 (Mon, 13 Jun 2016) | 2 lines
+
+"updated output file to two basic errors"
+
+------------------------------------------------------------------------
+r92 | haqueya1@UTORONTO.CA | 2016-06-13 08:22:14 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Almost complete Validator class. Need to discuss a few functionalities with the group.
+------------------------------------------------------------------------
+r91 | vasant42@UTORONTO.CA | 2016-06-13 01:29:41 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Added the parent-child relationship
+------------------------------------------------------------------------
+r90 | vasant42@UTORONTO.CA | 2016-06-13 01:25:31 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Changed to allow the creation of the initial directories via fullpath
+------------------------------------------------------------------------
+r89 | vasant42@UTORONTO.CA | 2016-06-13 01:24:22 -0400 (Mon, 13 Jun 2016) | 1 line
+
+added the parent-child relationship
+------------------------------------------------------------------------
+r88 | vasant42@UTORONTO.CA | 2016-06-13 01:23:51 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Previous version had a bug where it would attempt to add children to the first folder(even though there weren't any); this problem has been fixed; To do: make mkdir work with multiple file creations
+------------------------------------------------------------------------
+r87 | shahid41@UTORONTO.CA | 2016-06-13 00:32:10 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Edited the history crc card as one of the previous responsibilities stated was incorrect/vague
+------------------------------------------------------------------------
+r86 | shahid41@UTORONTO.CA | 2016-06-13 00:26:09 -0400 (Mon, 13 Jun 2016) | 1 line
+
+Created the History class containing all the required methods
+------------------------------------------------------------------------
+r85 | vasant42@UTORONTO.CA | 2016-06-13 00:03:20 -0400 (Mon, 13 Jun 2016) | 1 line
+
+fixed the recently added getObject code so it runs properly, and can return both files and folders
+------------------------------------------------------------------------
+r84 | vasant42@UTORONTO.CA | 2016-06-12 23:53:34 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Modified to use the getObject function in filesystem; Old code still kept in as comments for future reference
+------------------------------------------------------------------------
+r83 | vasant42@UTORONTO.CA | 2016-06-12 23:49:16 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Added the ability to retrieve folders/files just using the file name or paths as opposed to retrieving them using an index number; This used to ONLY be in the Mkdir class, but i decided to include here so other command classes and use it allowing for more code reuse 
+------------------------------------------------------------------------
+r82 | vasant42@UTORONTO.CA | 2016-06-12 21:41:27 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Mkdir now also added the created directory to the parent directory as a child; To be done: Accept multiple arguments
+------------------------------------------------------------------------
+r81 | vasant42@UTORONTO.CA | 2016-06-12 21:40:37 -0400 (Sun, 12 Jun 2016) | 1 line
+
+added the getObject function, which returns a specified object within the manager
+------------------------------------------------------------------------
+r80 | vasant42@UTORONTO.CA | 2016-06-12 21:11:22 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Created a vector for the purpose of storing the full paths of Folders
+------------------------------------------------------------------------
+r79 | vasant42@UTORONTO.CA | 2016-06-12 21:10:46 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Mkdir can now tell the difference between wrong arguments from right one; To be done: Create multiple folders at the same time, error message
+------------------------------------------------------------------------
+r78 | vasant42@UTORONTO.CA | 2016-06-12 20:45:33 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Minor changes made; Coordinates taken out; 'add' method created
+------------------------------------------------------------------------
+r77 | vasant42@UTORONTO.CA | 2016-06-12 20:44:15 -0400 (Sun, 12 Jun 2016) | 2 lines
+
+Created mkdir; What is done: Can properly differentiate between fullpath and working directory;To be done: Needs to be able to add the created class as a child to the working directory, spots errors in names, spots errors in fullpaths
+
+------------------------------------------------------------------------
+r76 | vasant42@UTORONTO.CA | 2016-06-12 18:48:42 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Submitting the sprint we created last week
+------------------------------------------------------------------------
+r75 | vasant42@UTORONTO.CA | 2016-06-12 18:13:51 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Added initial File; done so it doesn't cause errors with other classes
+------------------------------------------------------------------------
+r74 | gaoxu1@UTORONTO.CA | 2016-06-12 18:12:13 -0400 (Sun, 12 Jun 2016) | 1 line
+
+"updated output class with error message"
+------------------------------------------------------------------------
+r73 | gaoxu1@UTORONTO.CA | 2016-06-12 18:06:28 -0400 (Sun, 12 Jun 2016) | 1 line
+
+"formatted to follow google java format and added comments"
+------------------------------------------------------------------------
+r72 | vasant42@UTORONTO.CA | 2016-06-12 17:23:35 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Initial FileSystem class has bee made; currently can only do basic functionality; will change in the near future to accomadate other command classes; After much thought I have decided that the implementation is also subject to change
+------------------------------------------------------------------------
+r71 | shahid41@UTORONTO.CA | 2016-06-12 17:22:01 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Deleted the input.txt file as it would have been the same as the JShell.txt crc card, and JShell is a class that was premade for us
+------------------------------------------------------------------------
+r70 | vasant42@UTORONTO.CA | 2016-06-12 17:18:15 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Created the initial Folder class; untested as of yet; subject to change
+------------------------------------------------------------------------
+r69 | vasant42@UTORONTO.CA | 2016-06-12 17:16:23 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Added a collaboration to Folder class
+------------------------------------------------------------------------
+r68 | vasant42@UTORONTO.CA | 2016-06-12 17:15:58 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Removed a collaboration while adding a parentClass
+------------------------------------------------------------------------
+r67 | vasant42@UTORONTO.CA | 2016-06-12 17:15:04 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Added the crcCard for the Folder class; was previously overlooked by all of us
+------------------------------------------------------------------------
+r66 | gaoxu1@UTORONTO.CA | 2016-06-12 17:10:02 -0400 (Sun, 12 Jun 2016) | 1 line
+
+"created exit class to terminate the program when the command is called"
+------------------------------------------------------------------------
+r65 | shahid41@UTORONTO.CA | 2016-06-12 17:04:46 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Removed the input class in favour of the JShell class as they would've done the same thing. In addition, changed the original collaborations of the input class
+------------------------------------------------------------------------
+r64 | shahid41@UTORONTO.CA | 2016-06-12 16:48:28 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Added the import statement to import a2
+------------------------------------------------------------------------
+r63 | shahid41@UTORONTO.CA | 2016-06-12 16:43:28 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Modified the JShell to take in user commands - has a commented out command to send the inputs to the validator class. Will remove comment when the class is made
+------------------------------------------------------------------------
+r62 | haqueya1@UTORONTO.CA | 2016-06-12 16:33:25 -0400 (Sun, 12 Jun 2016) | 1 line
+
+Started a2 package and Validator class.
+------------------------------------------------------------------------
+r61 | gaoxu1@UTORONTO.CA | 2016-06-10 23:59:24 -0400 (Fri, 10 Jun 2016) | 1 line
+
+"deleted old outdated sprint, replaced new sprint with new ongoing tasks"
+------------------------------------------------------------------------
+r60 | shahid41@UTORONTO.CA | 2016-06-10 23:57:15 -0400 (Fri, 10 Jun 2016) | 1 line
+
+Edited error
+------------------------------------------------------------------------
+r59 | vasant42@UTORONTO.CA | 2016-06-10 23:45:34 -0400 (Fri, 10 Jun 2016) | 1 line
+
+commited my Daily Scrum meeting; June 10
+------------------------------------------------------------------------
+r58 | shahid41@UTORONTO.CA | 2016-06-10 23:44:50 -0400 (Fri, 10 Jun 2016) | 1 line
+
+Modified my sprint log and changed a responsibility from exit to history
+------------------------------------------------------------------------
+r57 | shahid41@UTORONTO.CA | 2016-06-10 23:43:30 -0400 (Fri, 10 Jun 2016) | 1 line
+
+added my daily scrum meeting log
+------------------------------------------------------------------------
+r56 | gaoxu1@UTORONTO.CA | 2016-06-10 23:38:45 -0400 (Fri, 10 Jun 2016) | 1 line
+
+"first sprint. created CRC cards, working on independent classes, not really stuck on anything yet"
+------------------------------------------------------------------------
+r55 | haqueya1@UTORONTO.CA | 2016-06-10 23:36:26 -0400 (Fri, 10 Jun 2016) | 1 line
+
+Added scrum meeting log for sprint 1.
+------------------------------------------------------------------------
+r54 | gaoxu1@UTORONTO.CA | 2016-06-08 22:04:30 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"Created new Echo crc card for overwriting and creating new files"
+------------------------------------------------------------------------
+r53 | vasant42@UTORONTO.CA | 2016-06-08 21:51:26 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added the EchoAppend crcCard; added responsibilities and collaborations, as well as parent class
+------------------------------------------------------------------------
+r52 | haqueya1@UTORONTO.CA | 2016-06-08 18:43:24 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added CRC class for the "File" class. This collaborates with the FileSystem.
+------------------------------------------------------------------------
+r51 | gaoxu1@UTORONTO.CA | 2016-06-08 18:37:57 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"Created new PWD crc card to print the whole path of the current directory"
+------------------------------------------------------------------------
+r50 | vasant42@UTORONTO.CA | 2016-06-08 18:37:46 -0400 (Wed, 08 Jun 2016) | 1 line
+
+added FileSystem crcCard; added responsibilities and collaborations
+------------------------------------------------------------------------
+r49 | shahid41@UTORONTO.CA | 2016-06-08 18:36:34 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Created the crc card for the DirStack class
+------------------------------------------------------------------------
+r48 | gaoxu1@UTORONTO.CA | 2016-06-08 18:34:43 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"created new mkdir crc card to create new directories"
+------------------------------------------------------------------------
+r47 | vasant42@UTORONTO.CA | 2016-06-08 18:34:13 -0400 (Wed, 08 Jun 2016) | 2 lines
+
+Fixed a type; Mkrdir changed to Mkdir
+
+------------------------------------------------------------------------
+r46 | gaoxu1@UTORONTO.CA | 2016-06-08 18:31:52 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"added new responsibility so that it can read a file"
+------------------------------------------------------------------------
+r45 | gaoxu1@UTORONTO.CA | 2016-06-08 18:31:10 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"formatted txt files, added new ls crc card to list the files and folders of the current directory"
+------------------------------------------------------------------------
+r44 | shahid41@UTORONTO.CA | 2016-06-08 18:28:55 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Fixed a grammar error in the class name
+------------------------------------------------------------------------
+r43 | gaoxu1@UTORONTO.CA | 2016-06-08 18:27:53 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"created new cd crc card, to traverse through filesystem"
+------------------------------------------------------------------------
+r42 | shahid41@UTORONTO.CA | 2016-06-08 18:27:32 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Modified the history class so that it collaborates with the Man class and edited the second responsibility description
+------------------------------------------------------------------------
+r41 | gaoxu1@UTORONTO.CA | 2016-06-08 18:26:46 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"added man as collaborator"
+------------------------------------------------------------------------
+r40 | haqueya1@UTORONTO.CA | 2016-06-08 18:26:33 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Changed the collaborator from "shell" to "ProQuery".
+------------------------------------------------------------------------
+r39 | haqueya1@UTORONTO.CA | 2016-06-08 18:25:36 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added the CRC card for the PushD class. This class will be invoked with the pushd command in the shell.
+------------------------------------------------------------------------
+r38 | vasant42@UTORONTO.CA | 2016-06-08 18:23:59 -0400 (Wed, 08 Jun 2016) | 1 line
+
+ProQuery crcCard added; all responsibilities and collaborations added
+------------------------------------------------------------------------
+r37 | shahid41@UTORONTO.CA | 2016-06-08 18:22:59 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Created the crc card for the PopD class
+------------------------------------------------------------------------
+r36 | gaoxu1@UTORONTO.CA | 2016-06-08 18:18:35 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"deleted old output crc card, created new crc card with the same content with .txt extension"
+------------------------------------------------------------------------
+r35 | gaoxu1@UTORONTO.CA | 2016-06-08 18:15:07 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"Created output class to display any messages"
+------------------------------------------------------------------------
+r34 | haqueya1@UTORONTO.CA | 2016-06-08 18:14:57 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added the CRC card for the Man class. This class is invoked using the "man 'CMD'" command in the shell.
+------------------------------------------------------------------------
+r33 | shahid41@UTORONTO.CA | 2016-06-08 18:14:33 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added the crc card for the History class
+------------------------------------------------------------------------
+r32 | gaoxu1@UTORONTO.CA | 2016-06-08 18:10:39 -0400 (Wed, 08 Jun 2016) | 1 line
+
+"Created exit crc card, has no collaborators?"
+------------------------------------------------------------------------
+r31 | haqueya1@UTORONTO.CA | 2016-06-08 18:03:42 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Renamed Input class.
+------------------------------------------------------------------------
+r30 | shahid41@UTORONTO.CA | 2016-06-08 18:01:37 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Edited the proQuery collaboration so that it is ProQuery - appropriate class name
+------------------------------------------------------------------------
+r29 | haqueya1@UTORONTO.CA | 2016-06-08 17:55:55 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added the CRC card for the input class.
+------------------------------------------------------------------------
+r28 | shahid41@UTORONTO.CA | 2016-06-08 17:55:24 -0400 (Wed, 08 Jun 2016) | 1 line
+
+Added the crc card for the Validator class
+------------------------------------------------------------------------
+r27 | haqueya1@UTORONTO.CA | 2016-06-07 22:40:24 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Changed the user story time estimates.
+------------------------------------------------------------------------
+r26 | gaoxu1@UTORONTO.CA | 2016-06-07 22:25:37 -0400 (Tue, 07 Jun 2016) | 1 line
+
+"Added two new user stories, echo STRING >> OUTFILE which should take 2 hours to complete and man CMD which should take 3 hours to complete" 
+------------------------------------------------------------------------
+r25 | haqueya1@UTORONTO.CA | 2016-06-07 22:22:50 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added user story involving the "echo" command.
+------------------------------------------------------------------------
+r24 | shahid41@UTORONTO.CA | 2016-06-07 22:18:53 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Modified the backlog to include the history command and the history [number] command
+------------------------------------------------------------------------
+r23 | gaoxu1@UTORONTO.CA | 2016-06-07 22:17:11 -0400 (Tue, 07 Jun 2016) | 1 line
+
+"added a new user story, added popd command to remove last saved directory"
+------------------------------------------------------------------------
+r22 | haqueya1@UTORONTO.CA | 2016-06-07 22:15:37 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added user story involving saving working directory using the "pushd DIR" command.
+------------------------------------------------------------------------
+r21 | gaoxu1@UTORONTO.CA | 2016-06-07 22:12:49 -0400 (Tue, 07 Jun 2016) | 1 line
+
+"move time estimate over one tab, added new user story, added pwd command, estimate time to complete 10 hours"
+------------------------------------------------------------------------
+r20 | gaoxu1@UTORONTO.CA | 2016-06-07 22:09:10 -0400 (Tue, 07 Jun 2016) | 1 line
+
+"Added a new User Story, entered the ls command, will take approximately 8 hours to complete"
+------------------------------------------------------------------------
+r19 | shahid41@UTORONTO.CA | 2016-06-07 22:07:21 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added project backlog for the cat command
+------------------------------------------------------------------------
+r18 | vasant42@UTORONTO.CA | 2016-06-07 22:06:08 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added another user story; story: added the cd command story
+------------------------------------------------------------------------
+r17 | haqueya1@UTORONTO.CA | 2016-06-07 22:04:16 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added a user story regarding the creation of directories.
+------------------------------------------------------------------------
+r16 | shahid41@UTORONTO.CA | 2016-06-07 22:02:41 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added backlog for the exit command
+------------------------------------------------------------------------
+r15 | vasant42@UTORONTO.CA | 2016-06-07 22:01:29 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added 2 stories to the back log; story 1:  user should be able to enter commands, story 2: checks if the command is valid
+------------------------------------------------------------------------
+r14 | haqueya1@UTORONTO.CA | 2016-06-07 21:58:07 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added another user story and fixed column 1's title/header. User story involves displaying valid commands for the user.
+------------------------------------------------------------------------
+r13 | vasant42@UTORONTO.CA | 2016-06-07 21:55:27 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added the first line of the backlog; story: allows the user to run the program
+------------------------------------------------------------------------
+r12 | shahid41@UTORONTO.CA | 2016-06-07 21:51:13 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Added name to Assignment student list
+------------------------------------------------------------------------
+r11 | haqueya1@UTORONTO.CA | 2016-06-07 21:49:42 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Filled out honour code in "Yasir Haque's" name.
+------------------------------------------------------------------------
+r10 | vasant42@UTORONTO.CA | 2016-06-07 21:46:01 -0400 (Tue, 07 Jun 2016) | 1 line
+
+Completed my (Marion) honor code
+------------------------------------------------------------------------
+r9 | gaoxu1@UTORONTO.CA | 2016-06-07 21:43:26 -0400 (Tue, 07 Jun 2016) | 2 lines
+
+"Filled out honour code"
+
+------------------------------------------------------------------------
+r8 | gaoxu1@UTORONTO.CA | 2016-06-07 21:37:45 -0400 (Tue, 07 Jun 2016) | 1 line
+
+"Created product backlog for team"
+------------------------------------------------------------------------
+r7 | attarwal@UTORONTO.CA | 2016-06-05 18:58:01 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r6 | attarwal@UTORONTO.CA | 2016-06-05 18:58:00 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r5 | attarwal@UTORONTO.CA | 2016-06-05 18:58:00 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2016-06-05 18:57:59 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2016-06-05 18:57:58 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2016-06-05 18:57:57 -0400 (Sun, 05 Jun 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r1 | markus | 2016-06-05 18:21:28 -0400 (Sun, 05 Jun 2016) | 1 line
+
+
+------------------------------------------------------------------------
+
+
+
+Part 3) +++Work Distribution of Team Members+++
++++ON ALL SOURCE FILES+++
+  24 attarwal@U
+1416 gaoxu1@UTO
+ 910 haqueya1@U
+1466 shahid41@U
+1568 vasant42@U
++++ON CRC CARDS+++
+   9 attarwal@U
+  48 gaoxu1@UTO
+  63 haqueya1@U
+  60 shahid41@U
+  35 vasant42@U
++++ON DAILYSCRUMMEETINGS+++
+  33 attarwal@U
+ 114 gaoxu1@UTO
+  50 haqueya1@U
+  56 shahid41@U
+  82 vasant42@U
++++ON PRODUCT BACKLOG +++
+  11 attarwal@U
+  16 gaoxu1@UTO
+  34 haqueya1@U
+  10 shahid41@U
+   8 vasant42@U
++++ON SPRINTS+++
+  68 attarwal@U
+ 190 vasant42@U
+3595
+Part 4) SVN Commits
+
+
+On Sprints
+   1  attarwal@UTORONTO.CA 
+   4  vasant42@UTORONTO.CA 
+
+
+On CRC Cards
+   1  attarwal@UTORONTO.CA 
+  11  gaoxu1@UTORONTO.CA 
+  14  haqueya1@UTORONTO.CA 
+  24  shahid41@UTORONTO.CA 
+   8  vasant42@UTORONTO.CA 
+
+
+On DailyScrumMeetings
+   1  attarwal@UTORONTO.CA 
+   8  gaoxu1@UTORONTO.CA 
+   6  haqueya1@UTORONTO.CA 
+  10  shahid41@UTORONTO.CA 
+   6  vasant42@UTORONTO.CA 
+
+
+On ProductBacklog
+   1  attarwal@UTORONTO.CA 
+   5  gaoxu1@UTORONTO.CA 
+   5  haqueya1@UTORONTO.CA 
+   3  shahid41@UTORONTO.CA 
+   3  vasant42@UTORONTO.CA 
+
+
+On source
+   1  attarwal@UTORONTO.CA 
+  79  gaoxu1@UTORONTO.CA 
+  74  haqueya1@UTORONTO.CA 
+  83  shahid41@UTORONTO.CA 
+ 110  vasant42@UTORONTO.CA 
